@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập a"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/inputB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập b"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/inputC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập c"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/solveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giải phương trình" />
+
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả hiển thị tại đây"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/playAudioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phát Audio" />
+
+    <Button
+        android:id="@+id/playVideoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phát Video" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"/>
+</LinearLayout>
